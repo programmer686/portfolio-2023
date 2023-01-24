@@ -1,0 +1,18 @@
+.container {
+    padding: 20px;
+    margin: 50px 0px;
+    background-color: rgb(70, 69, 69);
+}
+
+.iframe {
+    border: none;
+    width: 25vw;
+    height: 25vh;
+
+}
+
+.name, .stack, .github {
+    font-size: 1.5rem;
+    color: black;
+    margin: 20px 0px;
+}

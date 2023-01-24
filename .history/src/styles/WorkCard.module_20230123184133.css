@@ -1,0 +1,96 @@
+
+
+
+.bioText {
+    width: 80%;
+    font-size: 1.3em;
+    color: rgb(86, 86, 86);
+    margin: 5px 0px;
+    line-height: 30px;
+}
+
+.listContainer {
+    padding: 0% 2%;
+    margin-top: 15px;
+}
+
+.listPoints {
+    font-size: 1.2em;
+    color: rgb(70, 69, 69);
+    margin: 5px 0px;
+    line-height: 30px;
+}
+
+.workHistoryDate {
+    width: fit-content;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.workHistoryContainer, .educationContainer {
+    box-shadow: -2px -2px 5px black;
+    border-radius: 5px;
+    padding: 5% 2.5%;
+    width: 40%;
+    margin: 5% 0%;
+}
+
+.educationImagesContaienr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.educationContainer {
+    width: 30%;
+    height: 70vh;
+
+}
+
+.imageContainer {
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image {
+    margin: 10px 5px;
+    width: 300px;
+    height: auto;
+}
+
+.certificateContaienr {
+    width: 100vw;
+    height: 90vh;
+    padding: 10% 2%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.Scrimba {
+    width: 500px;
+    height: fit-content;
+}
+
+.FCC {
+    width: 500px;
+    height: fit-content;
+}
+
+.certficates {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: rgb(70, 69, 69);
+}
+
+@media only screen and (max-width: 600px)  {
+    .workHistoryContainer {
+        width: 70%;
+    }
+}

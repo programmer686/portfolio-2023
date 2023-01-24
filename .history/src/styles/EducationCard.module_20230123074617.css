@@ -1,0 +1,16 @@
+.school {
+    color: rgb(58, 58, 58);
+    margin-bottom: 20px;
+}
+
+.date {
+    color: rgb(97, 97, 97);
+    border-bottom: 1px solid rgb(58, 58, 58);
+    padding-bottom: 8px;
+    width: fit-content;
+}
+
+.description {
+    line-height: 2rem;
+    border: 1px solid red;
+}

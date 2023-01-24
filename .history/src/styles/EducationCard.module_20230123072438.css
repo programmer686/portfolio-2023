@@ -1,0 +1,19 @@
+.educationContainer {
+    box-shadow: -2px -2px 5px black;
+    border-radius: 5px;
+    padding: 5% 2.5%;
+    width: 40%;
+    margin: 5% 0%;
+}
+
+.educationImagesContaienr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.educationContainer {
+    width: 30%;
+    height: 70vh;
+
+}

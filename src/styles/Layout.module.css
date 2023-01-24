@@ -1,0 +1,10 @@
+.body {
+    min-height: 100vh;
+    height: fit-content;
+}
+
+.footer {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}

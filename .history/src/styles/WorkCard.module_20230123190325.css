@@ -1,0 +1,56 @@
+
+
+
+.bioText {
+    width: 80%;
+    font-size: 1.3em;
+    color: rgb(86, 86, 86);
+    margin: 5px 0px;
+    line-height: 30px;
+}
+
+.listContainer {
+    padding: 0% 2%;
+    margin-top: 15px;
+}
+
+.listPoints {
+    font-size: 1.2em;
+    color: rgb(70, 69, 69);
+    margin: 5px 0px;
+    line-height: 30px;
+}
+
+.workHistoryDate {
+    width: fit-content;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.workHistoryContainer {
+    box-shadow: -2px -2px 5px black;
+    border-radius: 5px;
+    padding: 5% 2.5%;
+    width: 40%;
+    margin: 5% 0%;
+}
+
+
+
+@media only screen and (max-width: 600px)  {
+    .workHistoryContainer {
+        width: 80%;
+        padding: 10% 5%;
+    }
+
+    .bioText {
+        width: 100%;
+    }
+
+    .workHistoryDate {
+        margin-bottom: 40px;
+    }
+
+    
+}
