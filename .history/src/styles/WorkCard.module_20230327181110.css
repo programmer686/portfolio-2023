@@ -9,19 +9,20 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
-    padding: 5% 2.5%;
+    
     color: #6F6F6F;
 }
 
 .headerProfile {
-    width: 100%;
+    width: fit-content;
     height: 16px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
+
     color: #000000;
 
 
@@ -32,7 +33,6 @@
     height: fit-content;
     padding-top: inherit;
     margin-top: 60px;
-    padding: 5% 5%;
 }
 
 .listPoints {
@@ -45,10 +45,18 @@
     color: #6F6F6F;
 }
 
+.workHistoryDate {
+    width: fit-content;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
 .workHistoryContainer {
     box-shadow: -2px -2px 5px black;
     border-radius: 5px;
-    width: 500px;
+    padding: 5% 2.5%;
+    width: 40%;
     margin: 5% 0%;
 }
 

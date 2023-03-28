@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function WorkCard(  props  ) {
     return (
         <div className={styles.workHistoryContainer}>
-                        <img className={styles.image} alt="" width={500} height={250} src={props.date}/>
+                        <Image alt="" width={100} height={100} src="/home/usuario/portfolio/src/comps/images/barbecue.jpg"/>
                         <h1 className={styles.headerProfile}>{props.job}</h1>
                         <p className={styles.bioText}>{props.description} </p>
                         <ul className={styles.listContainer}>

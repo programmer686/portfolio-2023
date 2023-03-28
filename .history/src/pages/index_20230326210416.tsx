@@ -19,6 +19,9 @@ export async function getServerSideProps() {
 }
 
 export default function Home( { projectData } ) {
+
+
+
   
 
   const [data, setData] = useState(projectData)

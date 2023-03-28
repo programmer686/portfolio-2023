@@ -3,9 +3,10 @@ import Image from 'next/image'
 
 
 export default function WorkCard(  props  ) {
+    const image = "../images/barbecue.jpg"
     return (
         <div className={styles.workHistoryContainer}>
-                        <img className={styles.image} alt="" width={500} height={250} src={props.date}/>
+                        <Image className={styles.image} alt="" width={500} height={250} src={image}/>
                         <h1 className={styles.headerProfile}>{props.job}</h1>
                         <p className={styles.bioText}>{props.description} </p>
                         <ul className={styles.listContainer}>

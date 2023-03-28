@@ -1,6 +1,6 @@
 import styles from '@/styles/WorkCard.module.css'
-import Image from 'next/image'
-
+//import Image from 'next/image'
+import image from "../images/barbecue.jpg"
 
 export default function WorkCard(  props  ) {
     return (

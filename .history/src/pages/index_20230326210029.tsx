@@ -7,6 +7,8 @@ import { nanoid } from 'nanoid'
 import { useState } from 'react'
 import ProjectCard from '@/comps/cards/ProjectCard'
 const inter = Inter({ subsets: ['latin'] })
+const express = require('express')
+const app = express()
 
 export async function getServerSideProps() {
   const projects = await prisma.project.findMany()
@@ -19,7 +21,9 @@ export async function getServerSideProps() {
 }
 
 export default function Home( { projectData } ) {
-  
+
+
+  app.get()
 
   const [data, setData] = useState(projectData)
 

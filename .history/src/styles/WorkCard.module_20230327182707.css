@@ -14,8 +14,9 @@
 }
 
 .headerProfile {
-    width: 100%;
+    width: fit-content;
     height: 16px;
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;

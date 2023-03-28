@@ -1,0 +1,102 @@
+
+
+
+.bioText {
+    width: 80%;
+    font-size: 1.3em;
+    color: rgb(86, 86, 86);
+    margin: 5px 0px;
+    line-height: 30px;
+}
+
+.listContainer {
+    padding: 0% 2%;
+    margin-top: 15px;
+}
+
+.listPoints {
+    font-size: 1.2em;
+    color: rgb(70, 69, 69);
+    margin: 5px 0px;
+    line-height: 30px;
+}
+
+.workHistoryDate {
+    width: fit-content;
+    border-bottom: 1px solid rgb(70, 69, 69);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.workHistoryContainer {
+    box-shadow: -2px -2px 5px black;
+    padding: 5% 2.5%;
+    width: 40%;
+    margin: 5% 0%;
+    height: 627px;
+    background: #E5E5E5;
+    border-radius: 20px;
+}
+
+
+
+.headerProfile {
+    position: absolute;
+    width: 490px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.bioText {
+    position: absolute;
+    width: 460px;
+    height: 89px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6F6F6F;
+}
+
+.listContainer {
+    position: absolute;
+width: 132px;
+height: 99px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #6F6F6F;
+
+
+}
+
+@media only screen and (max-width: 600px)  {
+    .workHistoryContainer {
+        width: 80%;
+        padding: 10% 5%;
+    }
+
+    .workHistoryDate {
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .bioText {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+}

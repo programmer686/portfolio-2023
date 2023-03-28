@@ -1,11 +1,11 @@
 import styles from '@/styles/WorkCard.module.css'
 import Image from 'next/image'
-
+import image from "../images/barbecue.jpg"
 
 export default function WorkCard(  props  ) {
     return (
         <div className={styles.workHistoryContainer}>
-                        <img className={styles.image} alt="" width={500} height={250} src={props.date}/>
+                        <Image className={styles.image} alt="" width={500} height={250} src={image}/>
                         <h1 className={styles.headerProfile}>{props.job}</h1>
                         <p className={styles.bioText}>{props.description} </p>
                         <ul className={styles.listContainer}>

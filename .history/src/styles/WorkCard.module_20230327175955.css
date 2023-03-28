@@ -1,0 +1,71 @@
+
+.workHistoryContainer {
+    position: absolute;
+    width: 500px;
+    height: 627px;
+    
+    background: #E5E5E5;
+    border-radius: 20px;
+}
+
+.headerProfile {
+    position: absolute;
+    width: 490px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.bioText {
+    position: absolute;
+    width: 460px;
+    height: 89px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #6F6F6F;
+}
+
+.listContainer {
+    position: absolute;
+width: 132px;
+height: 99px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #6F6F6F;
+
+
+}
+
+
+@media only screen and (max-width: 600px)  {
+    .workHistoryContainer {
+        width: 80%;
+        padding: 10% 5%;
+    }
+
+    .workHistoryDate {
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+
+    .bioText {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+}
