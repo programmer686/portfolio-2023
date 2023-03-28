@@ -63,7 +63,16 @@ export default function Portfolio ( { workData, educationData } ) {
     return (
         <main className={styles.main}>
             <section className={styles.header}>
-                <div className={styles.headerBioContainer}></div>
+                <div className={styles.headerInfoContainer}>
+                
+                </div>
+                <div className={styles.headerBioContainer}>
+                    <p className={styles.headerBioName}>Luke Smith</p>
+                    <div className={styles.bioContainer}>
+                        <h1 className={styles.headerProfile}>Profile</h1>
+                        <p className={styles.headerProfileText}>Motivated and wanting to learn, I am working up the ladder in the IT world. With skills in HTML5, CSS3, Javascript and more, I build websites, but I am always looking to learn and build something outside my area of experties.</p>
+                    </div>
+                </div>
             </section>
             <section className={styles.historyContainer}>
             <h1 className={styles.employmentHistory}>Employment History</h1>
